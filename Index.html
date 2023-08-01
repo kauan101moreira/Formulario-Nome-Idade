@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tabela</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+	
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<div class="title">
+			<h1>Formulário de nomes</h1>
+		</div>
+	</header>
+	
+	<main>
+		<div class="card">
+			<div class="lineInput">
+				<label>Nome</label>
+				<input type="text" id="nome" placeholder="Digite um nome">
+			</div>
+			
+			<div class="lineInput">
+				<label>Idade</label>
+				<input type="text" id="idade" placeholder="Digite uma idade">
+			</div>
+			
+			<button onclick="nomeIdade.salvar()">Salvar</button>
+		</div>
+	</main>
+	
+	<div class="content">
+		<table border=1>
+			<thead>
+				<th>Nome</th>
+				<th>Idade</th>
+			</thead>
+			<tbody id="tbody">
+				
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
